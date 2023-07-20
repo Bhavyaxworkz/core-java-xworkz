@@ -1,11 +1,18 @@
 class Printer{
+	
+
 
  String name;
  String type;
  int price;
  String origin;
  
- public void toPrint(){
+ public Printer(String name,String type,int price,String origin){
+	 this.name=name;
+	 this.type=type;
+	 this.price=price;
+	 this.origin=origin;
+	 System.out.println("Printer constructor is invoked");
 	 System.out.println("Printers to print");
  }
 }

@@ -2,83 +2,43 @@ class ShipTester{
 	
   public static void main(String ships[]){
    
-	  Ship ship1 = new Ship();
-	  ship1.name = "Titanic";
-	  ship1.purpose = "transportation";
-	  ship1.noOfCompartments = 22;
-	  ship1.toSailShips();
+	  Ship ship1 = new Ship("Titanic","transportation",22);
 	  System.out.println(ship1.name + " " + ship1.purpose + " " + ship1.noOfCompartments);
 	  System.out.println(" ");
 	  
-	  Ship ship2 = new Ship();
-	  ship2.name = "Destroyer";
-	  ship2.purpose = "adventure";
-	  ship2.noOfCompartments = 7;
-	  ship2.toSailShips();
+	  Ship ship2 = new Ship("Destroyer","adventure",7);
 	  System.out.println(ship2.name + " " + ship2.purpose + " " + ship2.noOfCompartments);
 	  System.out.println(" ");
 	  
-	  Ship ship3 = new Ship();
-	  ship3.name = "Bomb vessel";
-	  ship3.purpose = "war";
-	  ship3.noOfCompartments = 12;
-	  ship3.toSailShips();
+	  Ship ship3 = new Ship( "Bomb vessel","war",12);
 	  System.out.println(ship3.name + " " + ship3.purpose + " " + ship3.noOfCompartments);
 	  System.out.println(" ");
 	  
-	  Ship ship4 = new Ship();
-	  ship4.name = "USS Monitor";
-	  ship4.purpose = "transportation";
-	  ship4.noOfCompartments = 4;
-	  ship4.toSailShips();
+	  Ship ship4 = new Ship("USS Monitor","transportation",4);
 	  System.out.println(ship4.name + " " + ship4.purpose + " " + ship4.noOfCompartments);
 	  System.out.println(" ");
 	  
-	  Ship ship5 = new Ship();
-	  ship5.name = "Cutty Sark";
-	  ship5.purpose = "adventure";
-	  ship5.noOfCompartments = 5;
-	  ship5.toSailShips();
+	  Ship ship5 = new Ship("Cutty Sark","adventure",5);
 	  System.out.println(ship5.name + " " + ship5.purpose + " " + ship5.noOfCompartments);
 	  System.out.println(" ");
 	  
-	  Ship ship6 = new Ship();
-	  ship6.name = "Kraken";
-	  ship6.purpose = "war";
-	  ship6.noOfCompartments = 34;
-	  ship6.toSailShips();
+	  Ship ship6 = new Ship("Kraken","war",34);
 	  System.out.println(ship6.name + " " + ship6.purpose + " " + ship6.noOfCompartments);
 	  System.out.println(" ");
 	  
-	  Ship ship7 = new Ship();
-	  ship7.name = "Mayflower";
-	  ship7.purpose = "transportation";
-	  ship7.noOfCompartments = 9;
-	  ship7.toSailShips();
+	  Ship ship7 = new Ship("Mayflower","transportation",9);
 	  System.out.println(ship7.name + " " + ship7.purpose + " " + ship7.noOfCompartments);
 	  System.out.println(" ");
 	  
-	  Ship ship8 = new Ship();
-	  ship8.name = "Santa Maria";
-	  ship8.purpose = "adventure";
-	  ship8.noOfCompartments = 13;
-	  ship8.toSailShips();
+	  Ship ship8 = new Ship("Santa Maria","adventure",13);
 	  System.out.println(ship8.name + " " + ship8.purpose + " " + ship8.noOfCompartments);
 	  System.out.println(" ");
 	  
-	  Ship ship9 = new Ship();
-	  ship9.name = "Imagination";
-	  ship9.purpose = "transportation";
-	  ship9.noOfCompartments = 9;
-	  ship9.toSailShips();
+	  Ship ship9 = new Ship("Imagination","transportation",9);
 	  System.out.println(ship9.name + " " + ship9.purpose + " " + ship9.noOfCompartments);
 	  System.out.println(" ");
 	  
-	  Ship ship10 = new Ship();
-	  ship10.name = "Wanderlust";
-	  ship10.purpose = "adventure";
-	  ship10.noOfCompartments = 18;
-	  ship10.toSailShips();
+	  Ship ship10 = new Ship("Wanderlust","adventure",18);
 	  System.out.println(ship10.name + " " + ship10.purpose + " " + ship10.noOfCompartments);
       System.out.println(" ");
 }
