@@ -1,0 +1,7 @@
+class Sofa extends Furniture{
+
+
+
+
+
+}
