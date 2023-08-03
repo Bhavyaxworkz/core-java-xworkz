@@ -1,4 +1,0 @@
-class NetFlixOttPlatform extends OttPlatform{
-
-
-}

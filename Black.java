@@ -1,7 +1,0 @@
-class Black extends Color{
-
-
-
-
-
-}

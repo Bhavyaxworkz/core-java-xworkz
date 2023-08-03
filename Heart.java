@@ -1,7 +1,0 @@
-class Heart extends Organ{
-
-
-
-
-
-}

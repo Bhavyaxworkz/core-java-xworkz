@@ -1,7 +1,0 @@
-class EarRings extends Accessories{
-
-
-
-
-
-}

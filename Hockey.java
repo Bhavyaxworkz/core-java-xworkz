@@ -1,7 +1,0 @@
-class Hockey extends Sports{
-
-
-
-
-
-}

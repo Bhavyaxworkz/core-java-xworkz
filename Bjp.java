@@ -1,7 +1,0 @@
-class Bjp extends PoliticalParty{
-
-
-
-
-
-}

@@ -1,7 +1,0 @@
-class AlexaVirtualAssistance extends VirtualAssistance{
-
-
-
-
-
-}

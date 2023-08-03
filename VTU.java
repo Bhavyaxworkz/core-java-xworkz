@@ -1,7 +1,0 @@
-class VTU extends University{
-
-
-
-
-
-}

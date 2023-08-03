@@ -1,7 +1,0 @@
-class Eclipse extends IDE{
-
-
-
-
-
-}
